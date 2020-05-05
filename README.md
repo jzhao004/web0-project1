@@ -12,4 +12,3 @@ This repository contains the following files:
 4. style.scss: stylesheet file
 5. style.css: stylesheet file
 6. style.css.map
-"# web50-project0" 

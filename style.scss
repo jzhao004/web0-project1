@@ -1,0 +1,58 @@
+$bgcolor: #fcf5e5;
+$buttoncolor: #22456f;
+$buttontextcolor: white;
+$referencecolor: grey;
+
+body, html {
+  height: 100%;
+  background-color: $bgcolor;
+}
+
+.bg {
+  background-image: url("https://image.freepik.com/free-vector/palm-tree-chain-mountains-landscape_23-2148271240.jpg");
+
+  height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: absolute;
+  margin: 45px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  a {
+    float: left;
+    color: $buttoncolor;
+    text-align: center;
+    padding: 14px 30px;
+    font-size: 23px;
+  }
+}
+
+.reference, .reference:hover, .reference:active  .reference:visited, .reference:focus {
+  color: $referencecolor;
+}
+
+table {
+  width: 100%;
+  th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 15px;
+  }
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited, .btn-primary:focus {
+  background-color: $buttoncolor !important;
+  border: $buttoncolor !important;
+}
+
+.link, .link:hover, .link:active  .link:visited, .link:focus{
+  color: $buttontextcolor !important;
+}
